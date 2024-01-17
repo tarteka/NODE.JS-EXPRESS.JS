@@ -1,0 +1,19 @@
+extends layout 
+
+block metadatos 
+  title Inicio página web 
+  meta(name="description", content="Descripción de la página de inicio")
+
+block content
+  main.container 
+    h1 Bienvenidos a mi web 
+    nav 
+      ul 
+        li 
+          a(href="/contacto") Contacto (.html)
+        li
+          a(href="/git") Git (.md)
+        li
+          a(href="/nodejs") Node.js (.md)
+        li
+          a(href="/empty") Enlace roto que muestra el error 404

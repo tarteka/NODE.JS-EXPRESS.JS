@@ -1,0 +1,1 @@
+console.log("Pagina estática generada con Express.js")
